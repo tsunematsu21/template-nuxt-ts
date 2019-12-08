@@ -1,0 +1,49 @@
+{
+  "name": "template-nuxt-ts",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "tsunematsu21",
+    "email": "tsunematsu21@users.noreply.github.com",
+    "url": "https://github.com/tsunematsu21"
+  },
+  "homepage": "https://github.com/tsunematsu21/template-nuxt-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsunematsu21/template-nuxt-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tsunematsu21/template-nuxt-ts/issues",
+    "email": "tsunematsu21@users.noreply.github.com"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.10",
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.10",
+    "@nuxtjs/eslint-config-typescript": "^1.0.0",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-nuxt": "^0.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.1.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint"
+    }
+  }
+}
