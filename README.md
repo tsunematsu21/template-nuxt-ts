@@ -1,5 +1,6 @@
 # template-nuxt-ts
-[![LICENSE](https://img.shields.io/github/license/tsunematsu21/template-nuxt-ts?color=blue)](LICENSE)
+[![LICENSE](https://img.shields.io/github/license/tsunematsu21/template-nuxt-ts?color=green)](LICENSE)
+![TEMPLATE](https://img.shields.io/badge/template-nuxt--ts-blue)
 
 A template repository for [Nuxt TypeScript](https://typescript.nuxtjs.org/).
 
