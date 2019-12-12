@@ -6,6 +6,7 @@ A template repository for [Nuxt TypeScript](https://typescript.nuxtjs.org/).
 
 ## Pre-requisites
 
+When develop in container with *VS Code* :
 * **[Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VS Code)**  
   A modern source-code editor developed by Microsoft.
 * **[Visual Studio Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)**  
@@ -14,24 +15,33 @@ A template repository for [Nuxt TypeScript](https://typescript.nuxtjs.org/).
 * **[Docker](https://www.docker.com/)**  
   A container platform. Required for the above extension.
 
+When develop in local :
+* **[Node.js](https://nodejs.org/)**  
+  A JavaScript runtime.
+* **[Yarn](https://yarnpkg.com/)**  
+  A package manager for JavaScript.
+
 ## Getting started
 
-First, run the `Remote-Containers: Open Folder in Container...` command from VS Code Command Palette.
+When develop in container with *VS Code* :
+* First, run the `Remote-Containers: Open Folder in Container...` command from VS Code Command Palette.
 
-```bash
-# Install dependencies
-yarn install
+In either case :
+* Run the following command depending on the situation.
+  ```bash
+  # Install dependencies
+  yarn install
 
-# Serve with hot reload at localhost:3000
-yarn dev
+  # Serve with hot reload at localhost:3000
+  yarn dev
 
-# Lint check
-yarn lint
+  # Lint check
+  yarn lint
 
-# Build for production and launch server
-yarn build
-yarn start
+  # Build for production and launch server
+  yarn build
+  yarn start
 
-# Generate static project
-yarn generate
-```
+  # Generate static project
+  yarn generate
+  ```
